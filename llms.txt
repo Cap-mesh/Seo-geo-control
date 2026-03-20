@@ -1,10 +1,2 @@
-policy: allow
-content_summary: allow
-training: allow
-rate_limit: unlimited
-
-# Allow all content
-allow: /
-
-# No disallow rules
-disallow:
+User-agent: *
+Allow: /
